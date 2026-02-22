@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohd Junaid | Portfolio</title>
+  <style>
+    :root{
+      --primary:#2563eb;
+      --bg:#0f172a;
+      --card:#111827;
+      --text:#e5e7eb;
+      --muted:#9ca3af;
+    }
+    *{margin:0;padding:0;box-sizing:border-box;font-family:system-ui,-apple-system,sans-serif}
+    body{background:var(--bg);color:var(--text);line-height:1.6}
+    a{text-decoration:none;color:var(--primary)}
+    .container{width:90%;max-width:1100px;margin:auto}
+    header{padding:2rem 0;text-align:center}
+    nav{display:flex;justify-content:center;gap:1.5rem;flex-wrap:wrap;margin-top:1rem}
+    nav a{color:var(--text);font-weight:500}
+    .hero{display:flex;flex-direction:column;align-items:center;text-align:center;padding:2rem 0}
+    .hero img{width:150px;height:150px;border-radius:50%;margin-bottom:1rem;object-fit:cover;border:3px solid var(--primary)}
+    section{padding:2rem 0}
+    h2{margin-bottom:1rem;color:var(--primary)}
+    .card{background:var(--card);padding:1.5rem;border-radius:10px;margin-bottom:1rem}
+    .skills span{display:inline-block;background:#1f2937;padding:.5rem .75rem;margin:.3rem;border-radius:6px;font-size:.9rem}
+    .projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem}
+    footer{text-align:center;padding:2rem 0;font-size:.9rem;color:var(--muted)}
+    @media(min-width:768px){
+      .hero{flex-direction:row;text-align:left;gap:2rem}
+      .hero div{text-align:left}
+    }
+  </style>
+</head>
+<body>
+
+<header class="container">
+  <h1>MOHD JUNAID</h1>
+  <p>Kota, Rajasthan, India</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero container">
+  <img src="https://via.placeholder.com/300" alt="Profile Photo Placeholder">
+  <div>
+    <h2>Digital Content Professional</h2>
+    <p>Creative and detail-oriented digital content professional with 3+ years of experience in video editing, digital marketing, and multimedia production. Passionate about visual storytelling and leveraging technology to produce engaging digital content.</p>
+  </div>
+</section>
+
+<section id="about" class="container">
+  <h2>About</h2>
+  <div class="card">
+    <p>Expert in visual storytelling, content optimization, and collaborative project delivery. Proven ability to manage end-to-end video production workflows while maintaining high quality standards.</p>
+    <p><strong>Languages:</strong> English (Professional), Hindi (Native)</p>
+    <p><strong>Interests:</strong> Gaming, Photography, Emerging Media Technologies</p>
+  </div>
+</section>
+
+<section id="skills" class="container">
+  <h2>Skills</h2>
+  <div class="card skills">
+    <span>Adobe Premiere Pro</span>
+    <span>Final Cut Pro</span>
+    <span>DaVinci Resolve</span>
+    <span>Photoshop</span>
+    <span>After Effects</span>
+    <span>Illustrator</span>
+    <span>Motion Graphics</span>
+    <span>Color Grading</span>
+    <span>SEO Optimization</span>
+    <span>Social Media Management</span>
+    <span>A-Frame VR</span>
+    <span>Google Workspace</span>
+    <span>Microsoft Office</span>
+    <span>Project Management</span>
+  </div>
+</section>
+
+<section id="experience" class="container">
+  <h2>Experience</h2>
+  <div class="card">
+    <h3>Video Editor</h3>
+    <p><strong>Ali Creation & Production</strong> | Feb 2023 – Present</p>
+    <ul>
+      <li>Delivered 100+ video projects maintaining high client satisfaction.</li>
+      <li>Managed full post-production workflows.</li>
+      <li>Optimized video content for YouTube, Instagram, Facebook.</li>
+      <li>Collaborated with teams to create compelling visual narratives.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="projects" class="container">
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="card">
+      <h3>Video Production Showcase</h3>
+      <p>Placeholder for your featured video editing project.</p>
+      <a href="#">Project Link</a>
+    </div>
+    <div class="card">
+      <h3>Digital Marketing Campaign</h3>
+      <p>Placeholder for marketing strategy project.</p>
+      <a href="#">Project Link</a>
+    </div>
+    <div class="card">
+      <h3>VR Content Creation</h3>
+      <p>Placeholder for immersive media project.</p>
+      <a href="#">Project Link</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="container">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: <a href="mailto:sayam78669@gmail.com">sayam78669@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/mohdjunaid-9aba70175" target="_blank">View Profile</a></p>
+    <p>GitHub: <a href="#">Add GitHub Link</a></p>
+    <p>Instagram: <a href="#">Add Instagram Link</a></p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Mohd Junaid. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
